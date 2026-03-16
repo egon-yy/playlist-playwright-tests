@@ -36,8 +36,6 @@ export class PlaylistPage {
   async addTracksToPlaylist(numberOfTracks: number) {
     const container = this.getGeneralTracksContainer();
     const count = await container.count();
-
-    // Если запросили больше треков, чем есть в списке
     const tracksToAdd = Math.min(numberOfTracks, count);
 
     for (let i = 0; i < tracksToAdd; i++) {
