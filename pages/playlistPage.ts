@@ -10,7 +10,6 @@ export class PlaylistPage {
   }
 
   async navigate() {
-    // await this.page.goto('https://vite-react-alpha-lemon.vercel.app/');
     await this.page.goto('/');
   }
 
