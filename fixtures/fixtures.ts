@@ -7,7 +7,6 @@ type Fixtures = {
 
 export const test = base.extend<Fixtures>({
   playlistPage: async ({ page }, use) => {
-    // await page.goto('https://vite-react-alpha-lemon.vercel.app/');
     const playlist = new PlaylistPage(page);
     await playlist.navigate();
     await use(playlist);
