@@ -38,7 +38,7 @@ npx playwright install
 
 Create a `.env` file in the root of the project:
 
-BASE_URL=https://vite-react-alpha-lemon.vercel.app
+BASE_URL=https://your-url
 
 ---
 
